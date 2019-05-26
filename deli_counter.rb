@@ -7,11 +7,11 @@ def line(array)
     if array.count == 0
         puts empty_string
         return
-    else array.each do |name|
+    end
+    array.each do |name|
         string = string + " #{counter}. #{name}"
         counter = counter + 1
         end
-    end
     puts string
 end
 
